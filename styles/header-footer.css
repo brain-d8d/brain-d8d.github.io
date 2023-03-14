@@ -1,0 +1,35 @@
+/* CSS file for header and footer of all pages. */
+
+/* Styling for overall elements. */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Styling the body and main*/
+body {
+    padding: 16px;
+}
+
+/* Styling the navigation bar and anchors inside it. */
+nav {
+    width: max-content;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    box-shadow: -4px 4px 0px 0px grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav > a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 8px;
+    color: whitesmoke;
+    padding: 8px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
